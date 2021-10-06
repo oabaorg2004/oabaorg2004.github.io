@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+     <title>LMSGE - Ejercicios</title>
+</head>
+<body>
+	<header>
+		<h1>Ejercicios de Octavio del Módulo de Lenguajes de Marcar y Sistemas de Gestión Empresarial</h1>
+	</header>
+<ol>
+  <li>Julio</li>
+  <li>Carmen</li>
+  <li>Ignacio</li>
+  <li>Elena</li>
+</ol>
+<ol reversed>
+  <li>Julio</li>
+  <li>Carmen</li>
+  <li>Ignacio</li>
+  <li>Elena</li>
+</ol>
+</body>
+</html>
