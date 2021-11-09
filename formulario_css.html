@@ -1,0 +1,176 @@
+<!DOCTYPE html> 
+<html lang="es-ES">
+	<head>
+		<meta charset="utf-8">
+		<title>Formulario de prueba HTML5</title>
+	</head>
+<body>
+<style>
+	body {background-color: rgb(224, 170, 245);}
+	label {
+display: block;
+margin: .5em 0 0 0;
+}
+input:focus {
+border: 2px solid rgb(136, 41, 199);
+background: #747474;
+}
+p.a { color: rgb(61, 230, 103); font-family: Arial; text-transform: uppercase;} }
+div { color: rgb(153, 61, 230); border-style: solid; border-color: rgb(146, 25, 228); font-family: "Times New Roman"; text-shadow: 2px 2px #a8d9f5; }
+legend { color: rgb(33, 0, 59); font-family: "Times New Roman"; }
+input { padding: .2em; }
+button { display: block; margin: 1em 0;}
+img {
+    width:100px;
+    height:100px;
+    border-radius:160px;
+    border:10px solid rgb(162, 232, 241);}
+p.b { font-family: "capital"; font-size: 0,5em; color:rgb(33, 0, 59); text-align: center justify;}
+p.c { white-space: nowrap;color:rgb(33, 0, 59);}
+p.d { white-space: normal;color:rgb(33, 0, 59);}
+p.e { white-space: pre;color:rgb(33, 0, 59);}
+a.a { font-family: "arial"; font-size: 2em; color:rgb(243, 32, 32);}
+a.b:hover, a.b:active { background-color: #F89B4D;}
+a.button {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+
+    text-decoration: none;
+    color: rgb(243, 32, 32);
+} 
+
+</style>
+		<form action= method="get">
+		<fieldset>
+		<legend>FORMULARIO CSS</legend>
+		<img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpnYblSuPdtfl6Tm39mLS5Fz1SX5thHYSkmM1Fp8NTvDEZerthjm_uZVxItxmloaZs6ew&usqp=CAU' class='imgRedonda'>
+
+		<div>
+			<label for="name">Nombre:</label>
+			<input	type="text"	id="name"	name="user_name">
+		</div>
+		<div>
+			<label for="email">Correo electrónico:</label>
+			<input type="email"	id="email"	name="user_email">
+		</div>
+		<div>
+			<label for="url">URL:</label>
+			<input type="url" id="url"	name="user_url" placeholder="Escribe la URL de tu página web personal">
+		</div>
+		<div>
+			<label	for="date">Fecha:</label>
+			<input	type="date" id="date"	name="user_date">
+		</div>
+		<div>
+			<label	for="time">Tiempo:<label>
+			<input	type="time"	id="time"	name="user_time">
+		</div>
+		<div>
+			<label	for="datetime">Fecha y hora:<label>
+			<input	type="datetime"	id="datetime"	name="user_datetime">
+		</div>
+		<div>
+			<label	for="month">Mes:<label>
+			<input	type="month"	id="month"	name="user_month">
+		</div>
+		<div>
+			<label	for="week">Semana:<label>
+			<input	type="week"	id="week"	name="user_week">
+		</div>
+		<div>
+			<label	for="number">Número:<label>
+			<input	type="number"	id="number"	name="user_number"	min="-10"	max="10">
+		</div>
+		<div>
+			<label	for="tel">Teléfono:<label>
+			<input	type="tel"	id="tel"	name="user_tel">
+		</div>
+		<div>
+			<label	for="search">Término de búsqueda:<label>
+			<input	type="search"	id="search"	name="user_search">
+		</div>
+		<div>
+			<label	for="color">Color favorito:<label>
+			<input	type="color"	id="color"	name="user_color">
+		</div>
+		<div>
+            <div>Color de pelo:</div>
+				<label for="rojo">Rojo</label><br>
+                <input type="radio" id="rojo" name="color_pelo" value="rojo">
+				<label for="moreno">Moreno</label><br>
+            	<input type="radio" id="morero" name="color_pelo" value="moreno">
+				<label for="rubio">Rubio</label>
+                <input type="radio" id="rubio" name="color_pelo" value="rubio">
+        </div>
+        <div>
+            <div>Nacionalidad:</div>
+				<label for="español">Español</label><br>
+                <input type="radio" id="español" name="nacionalidad" value="español">
+                <label for="extranjero">Extranjero</label><br>
+                <input type="radio" id="extranjero" name="nacionalidad" value="extranjero">
+        </div>
+        <div>
+            <div>Navegadores instalados:</div>
+				<label for="navegador1">Google Chrome</label><br>
+                <input type="checkbox" id="navegador1" name="navegador1" value="Google Chrome">
+                <label for="navegador2">Microsoft Edge</label><br>
+                <input type="checkbox" id="navegador2" name="navegador2" value="Microsoft Edge">
+                <label for="navegador3">Mozilla Firefox</label><br>
+                <input type="checkbox" id="navegador3" name="navegador3" value="Mozilla Firefox">
+                <label for="navegador4">Opera</label><br>
+                <input type="checkbox" id="navegador4" name="navegador4" value="Opera">
+                
+       	</div>
+        <div>
+            <div>Provincia:</div>
+		<select>
+                <option>Almería</option>
+	        <option>Cádiz</option>
+	        <option>Córdoba</option>
+                <option>Granada</option>
+	        <option>Huelva</option>
+	        <option>Jaén</option>
+                <option>Málaga</option>
+	        <option>Sevilla</option>
+		</select>	
+        </div>
+        <div>
+		 <div>Contraseña:</div>
+            	<input type="password" minleght="8" maxleght="16" required="a-z">
+        </div>
+        <div>
+			<button type = "button" onclick = "alert ('¡¡MUCHAS GRACIAS!!')" >Enviar formulario</button>
+        </div>
+        <div>
+			<input type="Reset" value="Borrar todo">
+        </div>
+	</fieldset>
+	</form>
+	<p class="a">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+	<p class="b">Es un hecho establecido hace demasiado tiempo que un lector se distraerá con el contenido del texto de un sitio mientras que mira su diseño. El punto de usar Lorem Ipsum es que tiene una distribución más o menos normal de las letras, al contrario de usar textos como por ejemplo "Contenido aquí, contenido aquí". Estos textos hacen parecerlo un español que se puede leer. Muchos paquetes de autoedición y editores de páginas web usan el Lorem Ipsum como su texto por defecto, y al hacer una búsqueda de "Lorem Ipsum" va a dar por resultado muchos sitios web que usan este texto si se encuentran en estado de desarrollo. Muchas versiones han evolucionado a través de los años, algunas veces por accidente, otras veces a propósito</p>
+	<p class="c">
+		This is some text. This is some text. This is some text.
+		This is some text. This is some text. This is some text.
+		This is some text. This is some text. This is some text.
+		This is some text. This is some text. This is some text.
+		</p>
+	<p class="d">
+			This is some text. This is some text. This is some text.
+			This is some text. This is some text. This is some text.
+			This is some text. This is some text. This is some text.
+			This is some text. This is some text. This is some text.
+		</p>
+	<p class="e">
+				This is some text. This is some text. This is some text.
+				This is some text. This is some text. This is some text.
+				This is some text. This is some text. This is some text.
+				This is some text. This is some text. This is some text.
+	</p>
+	<a  class="a" href="https://www.youtube.com/watch?v=PyoRdu-i0AQ&ab_channel=DilanxC">Enlace1</a><br>
+	<a class="b" href="https://www.youtube.com/watch?v=PyoRdu-i0AQ&ab_channel=DilanxC">Enlace2</a><br>			
+	<a class="c" href="https://educacionadistancia.juntadeandalucia.es/centros/cadiz/pluginfile.php/883589/mod_resource/content/1/Unidad%202%20-%20Introducci%C3%B3n%20a%20CSS.pdf">Enlace3</a><br>		
+	<a class="btn btn-primary" href="https://www.freecodecamp.org/">Enlace4</a> 
+<a href="index.html"></a>
+</body>
+</html>
