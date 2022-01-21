@@ -1,0 +1,96 @@
+*{
+    box-sizing: border-box;
+}
+
+.contenedorCabecera{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.80);
+    align-items: center;
+    
+}
+.imagenCabecera{
+    margin-left: 0%;
+    
+}
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    margin-left: 1000px;
+    width: 750px;
+    align-items: center;
+    padding: 10px;
+    
+   
+}
+.menu ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    margin-left: 250px;
+   
+    
+}
+.menu li a{
+    text-decoration: none;
+    color: gray;
+    padding: 0px;
+    margin-left: 20px;
+    
+    
+}
+.menu li a:hover{
+    color: red;
+}
+.cuerpo{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    
+}
+.informacion{
+    margin-left: 170px;
+    padding: 5px;
+    
+    
+}
+.informacion :hover{
+    background-color: teal;
+    visibility: hidden;
+}
+.texto{
+    position: relative;
+    top: 50px;
+    color: white;
+}
+.final{
+    background-color: rgba(0, 0, 0, 0.80);
+    padding: 50px;
+    
+}
+.col_primera{
+    color: white;
+    text-decoration: underline;
+    padding-right: 450px;
+    position: relative;
+    right: 50px;
+    top:20px;
+    
+}
+.ciudad{
+    color: white;
+    text-decoration: underline;
+    padding-right: 450px;
+}
+.datos{
+    color: gray;
+    
+}
+.direccion{
+    color: gray;
+}
+.direccion:hover{
+    color: red;
+}
