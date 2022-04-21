@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+    <channel>
+    <title>TRABAJO RSS</title>
+    <link>https://github.com/oabaorg2004/oabaorg2004.github.io</link>
+    <description>Mi Github</description>
+    <item>
+        <title>Formulario CSS</title>
+        <link>https://oabaorg2004.github.io/formulario_css.html</link>
+        <description>css</description>
+    </item>
+    <item>
+        <title>Menus</title>
+        <link>https://oabaorg2004.github.io/menuCSS.html</link>
+        <description>css</description>
+    </item>
+    <item>
+        <title>Flamenco</title>
+        <link>https://oabaorg2004.github.io/PracticaFlamenco/flamenco.html</link>
+        <description>css</description>
+    </item>
+    <item>
+        <title>Layout</title>
+        <link>https://oabaorg2004.github.io/layout.html</link>
+        <description>css</description>
+    </item>
+    <item>
+        <title>XML con CSS</title>
+        <link>https://oabaorg2004.github.io/equipos.xml</link>
+        <description>xml</description>
+    </item>
+    </channel>
+</rss>
