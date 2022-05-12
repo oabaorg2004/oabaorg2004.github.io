@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="vehiculos.xsl"?>
+<vehiculos>
+	<vehiculo combustible="gasolina" cambio="manual">
+		<marca>seat</marca>
+		<modelo>Ibiza</modelo>
+		<potencia>65</potencia>
+		<anno>2004</anno>
+		<color>Rojo</color>
+		<precio>3000</precio>
+		<km>86000</km>
+	</vehiculo>
+	<vehiculo combustible="gasolina" cambio="manual">
+		<marca>citroen</marca>
+		<modelo>c3</modelo>
+		<potencia>60</potencia>
+		<anno>2012</anno>
+		<color>Blanco</color>
+		<precio>7500</precio>
+		<km>19000</km>
+	</vehiculo>
+	<vehiculo combustible="gasolina" cambio="manual">
+		<marca>renault</marca>
+		<modelo>megane</modelo>
+		<potencia>100</potencia>
+		<anno>2010</anno>
+		<color>Negro</color>
+		<precio>8900</precio>
+		<km>41000</km>
+	</vehiculo>
+	<vehiculo combustible="diesel" cambio="manual">
+		<marca>ford</marca>
+		<modelo>focus</modelo>
+		<potencia>90</potencia>
+		<anno>2011</anno>
+		<color>Azul</color>
+		<precio>12500</precio>
+		<km>57120</km>
+	</vehiculo>
+	<vehiculo combustible="diesel" cambio="manual">
+		<marca>seat</marca>
+		<modelo>altea</modelo>
+		<potencia>90</potencia>
+		<anno>2011</anno>
+		<color>Azul</color>
+		<precio>9000</precio>
+		<km>35120</km>
+	</vehiculo>
+	<vehiculo combustible="diesel" cambio="manual">
+		<marca>citroen</marca>
+		<modelo>c5</modelo>
+		<potencia>120</potencia>
+		<anno>2015</anno>
+		<color>Azul</color>
+		<precio>12500</precio>
+		<km>36100</km>
+	</vehiculo>
+	<vehiculo combustible="diesel" cambio="automatico">
+		<marca>audi</marca>
+		<modelo>a3</modelo>
+		<potencia>150</potencia>
+		<anno>2015</anno>
+		<color>gris</color>
+		<precio>18500</precio>
+		<km>67200</km>
+	</vehiculo>
+	<vehiculo combustible="diesel" cambio="manual">
+		<marca>audi</marca>
+		<modelo>a4</modelo>
+		<potencia>150</potencia>
+		<anno>2016</anno>
+		<color>blanco</color>
+		<precio>25500</precio>
+		<km>60000</km>
+	</vehiculo>
+	<vehiculo combustible="gasolina" cambio="automatico">
+		<marca>mercedes</marca>
+		<modelo>CLK 320</modelo>
+		<potencia>200</potencia>
+		<anno>2017</anno>
+		<color>negro</color>
+		<precio>30000</precio>
+		<km>63000</km>
+	</vehiculo>
+	<vehiculo combustible="diesel" cambio="manual">
+		<marca>ford</marca>
+		<modelo>cmax</modelo>
+		<potencia>120</potencia>
+		<anno>2017</anno>
+		<color>blanco</color>
+		<precio>14000</precio>
+		<km>55000</km>
+	</vehiculo>
+	<vehiculo combustible="gasolina" cambio="automatico">
+		<marca>nissan</marca>
+		<modelo>xtrail</modelo>
+		<potencia>200</potencia>
+		<anno>2019</anno>
+		<color>blanco</color>
+		<precio>30500</precio>
+		<km>19000</km>
+	</vehiculo>
+	<vehiculo combustible="gasolina" cambio="automatico">
+		<marca>audi</marca>
+		<modelo>q7</modelo>
+		<potencia>230</potencia>
+		<anno>2019</anno>
+		<color>gris</color>
+		<precio>41500</precio>
+		<km>39000</km>
+	</vehiculo>
+</vehiculos>
