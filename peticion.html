@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+     <meta charset="utf-8">
+     <meta http-equiv='X-UA-Compatible'
+content='IE-edge'>
+     <title>QuieresSerMiNovia</title>
+     <meta name='viewport'
+content='width=device-width,
+initial-scale=1'>
+     <style>
+        body
+        {
+            background-color:pink;
+        }
+        h3
+        {
+            color: whitesmoke;
+        }
+     </style>
+     <script>
+        function dice_si()
+        {
+            alert('Ahora somos novios ❤️')
+        }
+        function mueveElBoton()
+        {
+            width = window.innerWidth;
+            height = window.innerHeight;
+
+            newWidth = (Math.random() * width);
+            newHeight = (Math.random() * height);
+
+            document.getElementById('btnNo').style.position = "absolute";
+            document.getElementById('btnNo').style.left = newWidth + "px";
+            document.getElementById('btnNo').style.top = newHeight + "px";
+        }
+     </script>
+</head>
+<body>
+        <h3>¿Quieres ser mi novia?</h3>
+        <input type="button" onclick="dice_si()" id="btnSi" value="Si"/>
+        <input type="button" id="btnNo" onmouseover="mueveElBoton()" value="No"/>
+</body>
+</html>
